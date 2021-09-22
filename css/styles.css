@@ -1,0 +1,34 @@
+body {
+    background-color: #79B4B7;
+  }
+  h1 {
+      position: relative;
+      text-align: center;
+    color: #FEFBF3;
+    font-family: 'Arial', Times, serif;
+  }
+  h2{
+    text-align: center;
+      position: relative;
+    color: #FEFBF3;
+    font-family: 'Arial', Times, serif;
+  }
+  .hrbreak{
+    border-color:black;
+  }
+
+  .footer {
+    background-color: #0099cc;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+  }
+
+  p {
+    position: relative;
+    text-align: center;
+  color: #FEFBF3;
+  font-family: 'Arial', Times, serif;
+
+  }
