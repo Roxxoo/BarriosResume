@@ -4,8 +4,8 @@ body {
   h1 {
       position: relative;
       text-align: center;
-    color: #FEFBF3;
-    font-family: 'Arial', Times, serif;
+      color: #FEFBF3;
+      font-family: 'Arial', Times, serif;
   }
   h2{
     text-align: center;
@@ -25,10 +25,3 @@ body {
     padding: 15px;
   }
 
-  p {
-    position: relative;
-    text-align: center;
-  color: #FEFBF3;
-  font-family: 'Arial', Times, serif;
-
-  }
