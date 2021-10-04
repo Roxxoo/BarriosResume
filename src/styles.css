@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components{
+  .header{
+    @apply py-16 object-contain bg-blue-50;
+  }
+  .contactli{
+    @apply grid grid-flow-row sm:grid-flow-col text-base xl:text-lg 2xl:text-4xl 2xl:p-1;
+  }
+  .sectionheader{
+    @apply text-base xl:text-lg 2xl:text-4xl 2xl:p-1;
+  }
+  .sectiontext{
+    @apply text-base xl:text-lg 2xl:text-3xl 2xl:p-1;
+  }
+}
