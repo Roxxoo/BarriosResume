@@ -11,6 +11,127 @@ Document
 Use a better box model (opinionated).
 */
 
+#aboutme_text{
+  padding-right:5%;
+}
+.h4_text{
+  text-decoration:underline;
+  font-size: 1rem;
+  line-height: 1.5rem;
+ }
+.section_text{
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.section_name{
+  font-weight:600;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.contactli{
+  display: grid;
+  grid-auto-flow: row;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.name{
+  text-align:center;
+  font-size:1.1rem;
+  line-height:1rem;
+}
+.jobtitle{
+  text-align: center;
+  font-size:1rem;
+  line-height:1rem;
+}
+@media (min-width: 640px) {
+  .section_name{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+  .name{
+    text-align:center;
+    font-size:1.3rem;
+    line-height:1rem;
+  }
+  .jobtitle{
+    text-align: center;
+    font-size:1.1rem;
+    line-height:1rem;
+  }
+  .section_text{
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .contactli {
+    grid-auto-flow: column;
+  }
+}
+
+
+@media (min-width: 1280px) {
+  .contactli {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+  .h4_text{
+    font-size: 1rem;
+    line-height: 1.4rem;
+  }
+  .section_name{
+    font-size:1.25rem;
+    line-height:1.75rem;
+  }
+  .name{
+    text-align:center;
+    font-size:2.5rem;
+    line-height:1.8rem;
+  }
+  .jobtitle{
+    text-align: center;
+    font-size:1.5rem;
+    line-height:1.5rem;
+  }
+}
+
+@media (min-width: 2100px) {
+  .contactli {
+    padding: 0.25rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .name{
+    font-size:4rem;
+    line-height: 4rem;
+  }
+  .jobtitle{
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+  
+  .section_name{
+    font-size: 2.75rem;
+    line-height: 4rem;
+  }
+  .h4_text{
+    font-size: 2.5rem;
+    line-height: 3.6rem;
+  }
+  .section_text{
+    font-size: 2.0rem;
+    line-height: 3.0rem;
+  }
+
+}
+
+.withgap{
+  padding-bottom:6px;
+  padding-top:6px;
+}
+
+
 *,
 ::before,
 ::after {
@@ -616,34 +737,6 @@ video {
      object-fit: contain;
   padding-top: 4rem;
   padding-bottom: 4rem;
-}
-
-.contactli{
-  display: grid;
-  grid-auto-flow: row;
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
-@media (min-width: 640px) {
-  .contactli {
-    grid-auto-flow: column;
-  }
-}
-
-@media (min-width: 1280px) {
-  .contactli {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-}
-
-@media (min-width: 1536px) {
-  .contactli {
-    padding: 0.25rem;
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
 }
 
 .sr-only {
