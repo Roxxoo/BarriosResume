@@ -8,14 +8,14 @@
   }
 
   .contactli{
-    @apply grid grid-flow-row text-base sm:grid-flow-col xl:text-lg 4k:text-4xl 2xl:p-1;
+    @apply grid grid-flow-row text-base sm:grid-flow-col xl:text-lg 2xl:p-1;
   }
 
   .sectionheader{
-    @apply text-base xl:text-lg 4k:text-4xl 2xl:p-1;
+    @apply text-base xl:text-lg 2xl:p-1;
   }
 
   .sectiontext{
-    @apply text-base xl:text-lg 4k:text-3xl 2xl:p-1;
+    @apply text-base xl:text-lg 2xl:p-1;
   }
 }
